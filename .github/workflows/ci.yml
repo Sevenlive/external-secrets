@@ -192,7 +192,7 @@ jobs:
     with:
       dockerfile: ${{ matrix.dockerfile }}
       tag-suffix: ${{ matrix.tag-suffix }}
-      image-name: ghcr.io/${{ github.repository }}
+      image-name: ghcr.io/sevenlive/external-secrets
       build-platform: ${{ matrix.build-platform }}
       build-args: ${{ matrix.build-args }}
       build-arch: ${{ matrix.build-arch }}

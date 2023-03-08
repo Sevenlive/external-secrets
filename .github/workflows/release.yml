@@ -9,7 +9,7 @@ on:
         default: 'v0.1.0'
 
 env:
-  IMAGE_NAME: ghcr.io/${{ github.repository }}
+  IMAGE_NAME: ghcr.io/sevenlive/external-secrets
 
 jobs:
   release:
